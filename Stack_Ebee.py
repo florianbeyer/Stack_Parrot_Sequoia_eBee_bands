@@ -1,4 +1,4 @@
-#### Florian Beyers
+#### Florian Beyer
 ### The script stacks Parrot Sequoia bands from a eBee Plus UAV flight
 ### with Python 2.7
 ## 2018-05-09
@@ -48,8 +48,7 @@ def save_stack(name, arrays, meta):
 
 print 'start processing!'
 
-# directory where the Lansat data are stored
-# load_path = "N:/Daten_GG/projekte/PFIFFikus (EFRE) - 74120125/Bilder/2018_05_04_Wetscapes/2018_05_04_CW_CD/2018_05_04_CW_CD_MS/2018_05_04_CW_CD_MS/4_index/reflectance"
+# directory
 load_path = str(getcwd())
 
 print 'file directory: {}'.format(load_path)
